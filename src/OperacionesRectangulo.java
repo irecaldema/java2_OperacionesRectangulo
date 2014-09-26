@@ -16,9 +16,9 @@ public static void main (String args[])
 
  operaciones.setMedidas(base, altura);
  
- System.out.println("\nEl area del rectangulo es: " + operaciones.getArea());
+ System.out.println("\nEl area del rectangulo es: " + operaciones.Area());
 
- System.out.println("\nEl perimetro del rectangulo es: " + operaciones.getPeri());
+ System.out.println("\nEl perimetro del rectangulo es: " + operaciones.Peri());
 
  System.out.println("\n\nEGUN ONA IZAN!!\n");
 	}

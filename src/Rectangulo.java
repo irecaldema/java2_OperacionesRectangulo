@@ -9,17 +9,27 @@ public void setMedidas(double base, double altura)
  {
 	this.base = base;
 	this.altura = altura;
-	area = base*altura;
-	peri = 2*base+2*altura;
  }
- 
-public double getArea() 
- {	
+
+public double getBase() 
+{
+	return base;
+}
+
+public double getAltura() 
+{
+	return altura;
+}
+
+public double Area() 
+{
+	area = getBase()*getAltura();
 	return area;
- }
- 
-public double getPeri() 
- {	
+}
+
+public double Peri() 
+{
+	peri = 2*getBase()+2*getAltura();
 	return peri;
- }
+}
 }
