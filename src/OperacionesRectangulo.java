@@ -11,10 +11,10 @@ public static void main (String args[])
  Scanner sc = new Scanner(System.in);
  System.out.print("\ningresa la base del rectangulo a analizar: ");
  base = sc.nextDouble();
+ operaciones.setBase(base);
  System.out.print("\ningresa la altura del rectangulo a analizar: ");
  altura = sc.nextDouble();
-
- operaciones.setMedidas(base, altura);
+ operaciones.setAltura(altura);
  
  System.out.println("\nEl area del rectangulo es: " + operaciones.Area());
 

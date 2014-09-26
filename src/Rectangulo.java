@@ -5,9 +5,12 @@ public class Rectangulo {
 	private double area = 0;
 	private double peri = 0;
 	
-public void setMedidas(double base, double altura) 
+public void setBase(double base) 
  {
 	this.base = base;
+ }	
+public void setAltura(double altura)
+ {
 	this.altura = altura;
  }
 
